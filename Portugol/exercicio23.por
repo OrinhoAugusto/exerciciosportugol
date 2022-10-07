@@ -18,7 +18,7 @@ programa
 
 		salario = (valorHora * horas) * aulas
 
-		se(salario >= 1212) {
+		se(salario <= 1212) {
 			desconto = salario * 0.075
 		}
 
